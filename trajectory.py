@@ -3,6 +3,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+def trajectory_sin():
+    print("test")
+
 def main():
     time = 1
     res  = 0.1
@@ -41,4 +44,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
