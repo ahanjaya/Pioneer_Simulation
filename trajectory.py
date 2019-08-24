@@ -75,8 +75,8 @@ def main():
     trajectory_sin(time, res)
     trajectory_gaussian(time, res)
 
-    # plt.legend()
     plt.show(block=False)
+    plt.pause(0.1)
     input("Press [enter] to close.")
     plt.close('all')
 
